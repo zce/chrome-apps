@@ -1,0 +1,28 @@
+{
+    "name": "Coding",
+    "description": "In-browser IDE",
+    "version": "1.0.10",
+    "manifest_version": 2,
+    // "api_console_project_id" : "241271498917",
+    "icons": {
+        "128": "logo.png"
+    },
+    "app": {
+        // "urls": [
+        //     "http://naotu.baidu.com/"
+        // ],
+        // "launch": {
+        //     "web_url": "http://naotu.baidu.com/edit.html"
+        // },
+        "background": {
+            "scripts": [
+                "app.js"
+            ]
+        }
+    },
+    //"key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5HT/Jpxij17E2NnkyAob5B1SP2/RmTnt4RC5tYfWwnUyTEBm8DKfNQdJ0gnkWC+JPB51gGjZKahc0MUxTqxU+SAdwFQdcmFXOJEk8/d/FZF/cIAdCEnDnpp3icWQA7TDqjqwBFLhkQa6K9aMCW6gY+jK9H9lVGpmwolUPYOzgtwIDAQAB",
+    "minimum_chrome_version": "24.0.1307.0",
+    "offline_enabled": true,
+    "permissions": ["notifications", "cookies", "webview", "clipboardRead", "clipboardWrite", "contextMenus", "fileSystem", "geolocation", "storage", "tts", "unlimitedStorage"],
+    "short_name": "Coding"
+}
